@@ -1,6 +1,7 @@
 #!/bin/bash
 if ! [ -x "$(command  $1
 )" ]; then
-	brew install $1
+	echo "Installed"
 else
+	brew install $1
 fi
